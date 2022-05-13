@@ -1,0 +1,79 @@
+
+    /* .box {
+      text-align: center;
+        width: 90vw;
+        height: 80vh;
+        color: brown;
+        padding: 40px;
+    } */
+
+    .box {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 10;
+      word-wrap: break-word;
+      background-color: rgb(155, 140, 149);
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 0.25rem;
+      text-align: center;
+      height: 70vh;
+      width: 30vw;
+      margin-left: 35%;
+      margin-right: 40%;
+      margin-top: 10%;
+      margin-bottom: 0;
+    }
+
+    .wave {
+      opacity: 0.3;
+      position: absolute;
+      top: 65%;
+      left: 50%;
+      background:white;
+      width: 50rem;
+      height: 50rem;
+      margin-left: -25rem;
+      margin-right: -20rem ;
+      transform-origin: 50% 100%;
+      border-radius: 45%;
+      animation: drift 7000ms infinite linear;
+      z-index: 1;
+    }
+
+    .wave.-three{
+      animation:  drift 7000ms infinite linear;
+      opacity: 0.1;
+      z-index: 3;
+    }
+
+    .wave.-two{
+      animation:  drift 7000ms infinite linear;
+      opacity: 0.1;
+      z-index: 3;
+    }
+
+    .info{
+      height: 70vh;
+      width: 30vw;
+      margin-left: 0%;
+      margin-right: 40%;
+      margin-top: 50%;
+      margin-bottom: 0;
+    }
+
+
+
+    
+
+     /* .box .inputData{
+       height: 100px;
+       width: 100px;
+      border: 1px solid white;
+      border-radius: 5px;
+      outline: none;
+      padding: 5px;
+      font-size: 17px;
+      transition: all0.3s ease;
+    }  */
